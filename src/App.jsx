@@ -1,9 +1,11 @@
-import React from 'react'
+import RegistrationForm from "./components/forms/RegistrationForm";
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <RegistrationForm />
+    </>
+  );
 }
 
-export default App
+export default App;

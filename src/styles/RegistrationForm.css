@@ -1,0 +1,21 @@
+.registration-section {
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+}

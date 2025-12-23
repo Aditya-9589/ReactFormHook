@@ -1,0 +1,32 @@
+.input-error {
+    border: 2px solid red;
+}
+
+.error-msg {
+    color: red;
+}
+
+input {
+    outline: none;
+    /* remove default focus outline */
+}
+
+input:focus {
+    /* outline: none; */
+    outline: 1px solid grey;
+    box-shadow: none;
+    /* important for Chrome */
+}
+
+/* Error state */
+.input-error {
+    border: 2px solid red;
+}
+
+/* When error input is focused */
+.input-error:focus {
+    border: 2px solid red;
+}
+
+
+
